@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Image Background Navigation Bar
+        let navBackgroundImage:UIImage! = UIImage(named: "top_bar_bg")
+        UINavigationBar.appearance().setBackgroundImage(navBackgroundImage, for: .default)
+        
+        
+        
+        if UserDefaults.standard.object(forKey: "keyLanguage")  == nil{
+            CheckLanguage.ChangeLanguage(NewLang: "en")// default language is english
+        }
         return true
     }
 

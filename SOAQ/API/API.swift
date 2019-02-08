@@ -190,16 +190,127 @@ class API: NSObject {
   
     
     
-   
-    
- 
+   // countries API
     
     
     
     
+    class func CountriesAPI( completion: @escaping (_ error: Error? ,  _ data:[CountryModel]?)-> Void) {
+        
+        //  refresh.startAnimating()
+        let url=URLs.countriesURL
+        
+        Alamofire.request(url, method: .get, encoding: URLEncoding.default, headers: nil)
+            .responseJSON { response in
+                switch response.result
+                {
+                case .failure(let error):
+                    completion(error,nil)
+                    print(error)
+                    
+                case .success(let value):
+                    
+                    let json = JSON(value)
+                    guard let dataArr = json.array else{
+                        completion(nil , nil)
+                        return
+                    }
+                    
+                    var subCategoryData = [CountryModel]()
+                    for data in dataArr {
+                        if let data = data.dictionary ,let result = CountryModel.init(dic: data) {
+                            subCategoryData.append(result)
+                        }
+                    }
+                    completion(nil,subCategoryData)
+                    
+                }
+                
+                
+        }
+        
+    }
     
     
     
+    // cities
+    
+    class func CitiesAPI( completion: @escaping (_ error: Error? ,  _ data:[CityModel]?)-> Void) {
+        
+        //  refresh.startAnimating()
+        let url=URLs.cityURL
+        
+        Alamofire.request(url, method: .get, encoding: URLEncoding.default, headers: nil)
+            .responseJSON { response in
+                switch response.result
+                {
+                case .failure(let error):
+                    completion(error,nil)
+                    print(error)
+                    
+                case .success(let value):
+                    
+                    let json = JSON(value)
+                    guard let dataArr = json.array else{
+                        completion(nil , nil)
+                        return
+                    }
+                    
+                    var subCategoryData = [CityModel]()
+                    for data in dataArr {
+                        if let data = data.dictionary ,let result = CityModel.init(dic: data) {
+                            subCategoryData.append(result)
+                        }
+                    }
+                    completion(nil,subCategoryData)
+                    
+                }
+                
+                
+        }
+        
+    }
+    
+    // Area
+    
+    
+    
+    
+    class func AreaAPI( completion: @escaping (_ error: Error? ,  _ data:[AreaModel]?)-> Void) {
+        
+        //  refresh.startAnimating()
+        let url=URLs.areaURL
+        
+        Alamofire.request(url, method: .get, encoding: URLEncoding.default, headers: nil)
+            .responseJSON { response in
+                switch response.result
+                {
+                case .failure(let error):
+                    completion(error,nil)
+                    print(error)
+                    
+                case .success(let value):
+                    
+                    let json = JSON(value)
+                    guard let dataArr = json.array else{
+                        completion(nil , nil)
+                        return
+                    }
+                    
+                    var subCategoryData = [AreaModel]()
+                    for data in dataArr {
+                        if let data = data.dictionary ,let result = AreaModel.init(dic: data) {
+                            subCategoryData.append(result)
+                        }
+                    }
+                    completion(nil,subCategoryData)
+                    
+                }
+                
+                
+        }
+        
+    }
     
     
     

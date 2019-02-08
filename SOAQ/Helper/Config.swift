@@ -14,8 +14,11 @@ class URLs {
     
     
     // task 3 main url
-    static let mainURLTask3="https://www.salonidepot.com/app/app.asmx/"
+    static let mainURLTask3="http://www.salonidepot.com/app/app.asmx/"
+  
     
+    //task 2
+   // static let mainURLTask2="http://www.salonidepot.com/app/app.asmx/"
     
      // main Category url
     static let mainCategory="GetCategories?categoryId=0&countryId=1"
@@ -52,8 +55,16 @@ class URLs {
     // get  countries
     
     
+   
+    // get Area
+    static let area="GetAreas?cityId=1"
+    static let areaURL=mainURLTask3+area
     
     
+    // get city
+    
+   static let city="GetCities?countryId=1"
+   static let cityURL=mainURLTask3+city
     
     
     

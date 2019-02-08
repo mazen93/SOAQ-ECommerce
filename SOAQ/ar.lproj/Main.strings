@@ -1,0 +1,72 @@
+
+/* Class = "UIButton"; normalTitle = "Country"; ObjectID = "46H-Qf-FtR"; */
+"46H-Qf-FtR.normalTitle" = "الدوله";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "67z-qm-6MB"; */
+"67z-qm-6MB.placeholder" = "الاسم بالكامل";
+
+/* Class = "UIButton"; normalTitle = "Change Language"; ObjectID = "B6R-7f-3zs"; */
+"B6R-7f-3zs.normalTitle" = "تغير لغه";
+
+/* Class = "UIButton"; normalTitle = "Area"; ObjectID = "C6d-dc-VZK"; */
+"C6d-dc-VZK.normalTitle" = "المنطقه";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DDB-LK-ZEA"; */
+"DDB-LK-ZEA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ER2-mc-bsK"; */
+"ER2-mc-bsK.normalTitle" = "الغاء";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Grb-wz-5CV"; */
+"Grb-wz-5CV.placeholder" = "البريد الالكتروني";
+
+/* Class = "UITableViewSection"; headerTitle = "BRANDS"; ObjectID = "IO3-w1-5SW"; */
+"IO3-w1-5SW.headerTitle" = "الماركات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "L0O-04-w3O"; */
+"L0O-04-w3O.text" = "Label";
+
+/* Class = "UILabel"; text = "By clicking register you agree to "; ObjectID = "MXw-2H-ahO"; */
+"MXw-2H-ahO.text" = "عند الضعط تكون موافق";
+
+/* Class = "UITextField"; placeholder = "code"; ObjectID = "N6S-1h-4wI"; */
+"N6S-1h-4wI.placeholder" = "رمز";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Z6x-F6-zTi"; */
+"Z6x-F6-zTi.placeholder" = "كلمه المرور";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "bky-Fi-tAI"; */
+"bky-Fi-tAI.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e4I-Af-m51"; */
+"e4I-Af-m51.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fUT-p5-rke"; */
+"fUT-p5-rke.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "12345"; ObjectID = "jWK-Vf-ArN"; */
+"jWK-Vf-ArN.placeholder" = "12345";
+
+/* Class = "UIBarButtonItem"; title = "language"; ObjectID = "lD3-i1-are"; */
+"lD3-i1-are.title" = "اللغه";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oTF-eC-KlF"; */
+"oTF-eC-KlF.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "terms&Condition"; ObjectID = "p2h-fn-k9y"; */
+"p2h-fn-k9y.normalTitle" = "الشروط و الاحكام";
+
+/* Class = "UITableViewSection"; headerTitle = "BEST SELLERS"; ObjectID = "qt5-Zj-gL3"; */
+"qt5-Zj-gL3.headerTitle" = "الاكثر مبيعا";
+
+/* Class = "UIButton"; normalTitle = "City"; ObjectID = "rNI-c7-U7k"; */
+"rNI-c7-U7k.normalTitle" = "المدينه";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uOL-2E-Qob"; */
+"uOL-2E-Qob.text" = "Label";
+
+/* Class = "UILabel"; text = "1200 KWD"; ObjectID = "v2D-Lt-6FS"; */
+"v2D-Lt-6FS.text" = "1200 KWD";
+
+/* Class = "UILabel"; text = "Register"; ObjectID = "v8w-3u-aBz"; */
+"v8w-3u-aBz.text" = "تسجيل دخول";

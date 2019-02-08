@@ -15,15 +15,15 @@ class BestSellerCell: UICollectionViewCell {
     
     func setData(data:bestSellerModel) {
         
-//        if General.CurrentLanguage() == "en"
-//        {
-//            self.price.text="\(data.final_price!) \(data.currencyEn!)"
-//            self.title.text=data.titleEn!
-//        }else
-//        {
-//            self.price.text="\(data.final_price!) \(data.currencyAr!)"
-//            self.title.text=data.titleAR
-//        }
+        if General.CurrentLanguage() == "en"
+        {
+            self.price.text="\(data.final_price!) \(data.currencyEn!)"
+            self.title.text=data.titleEn!
+        }else
+        {
+            self.price.text="\(data.final_price!) \(data.currencyAr!)"
+            self.title.text=data.titleAR
+        }
         
         
         

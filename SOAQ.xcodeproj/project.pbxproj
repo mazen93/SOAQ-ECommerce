@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041E4B92220D66970045B85C /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4B91220D66970045B85C /* CountryModel.swift */; };
+		041E4B94220D673F0045B85C /* AreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4B93220D673F0045B85C /* AreaModel.swift */; };
+		041E4B96220D675E0045B85C /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4B95220D675E0045B85C /* CityModel.swift */; };
+		041E4B9A220D6AAA0045B85C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4B99220D6AAA0045B85C /* ViewController.swift */; };
+		041E4BA0220D6AD30045B85C /* popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4B9D220D6AD30045B85C /* popViewController.swift */; };
+		041E4BA3220D6E1B0045B85C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4BA2220D6E1B0045B85C /* Shared.swift */; };
+		041E4BA5220D6E480045B85C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E4BA4220D6E480045B85C /* TableViewCell.swift */; };
+		041E4BAB220D98580045B85C /* GE Dinar One Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041E4BA9220D98580045B85C /* GE Dinar One Medium.ttf */; };
+		041E4BAC220D98580045B85C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041E4BAA220D98580045B85C /* Montserrat-Regular.ttf */; };
 		0486B5B8220B0C2600FBBEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486B5B7220B0C2600FBBEDC /* AppDelegate.swift */; };
 		0486B5BD220B0C2700FBBEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486B5BB220B0C2700FBBEDC /* Main.storyboard */; };
 		0486B5BF220B0C7300FBBEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486B5BE220B0C7300FBBEDC /* Assets.xcassets */; };
@@ -32,6 +41,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041E4B91220D66970045B85C /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		041E4B93220D673F0045B85C /* AreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaModel.swift; sourceTree = "<group>"; };
+		041E4B95220D675E0045B85C /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		041E4B99220D6AAA0045B85C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041E4B9D220D6AD30045B85C /* popViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popViewController.swift; sourceTree = "<group>"; };
+		041E4BA2220D6E1B0045B85C /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		041E4BA4220D6E480045B85C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		041E4BA6220D7A5B0045B85C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		041E4BA7220D7A5C0045B85C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		041E4BA9220D98580045B85C /* GE Dinar One Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GE Dinar One Medium.ttf"; sourceTree = "<group>"; };
+		041E4BAA220D98580045B85C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		0486B5B4220B0C2600FBBEDC /* SOAQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOAQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0486B5B7220B0C2600FBBEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0486B5BC220B0C2700FBBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +92,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041E4B90220D66550045B85C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041E4B91220D66970045B85C /* CountryModel.swift */,
+				041E4B93220D673F0045B85C /* AreaModel.swift */,
+				041E4B95220D675E0045B85C /* CityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041E4B97220D69A70045B85C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				041E4B9D220D6AD30045B85C /* popViewController.swift */,
+				041E4B99220D6AAA0045B85C /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		041E4B98220D69B30045B85C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041E4BA4220D6E480045B85C /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041E4BA1220D6E1A0045B85C /* notificationcenter */ = {
+			isa = PBXGroup;
+			children = (
+				041E4BA2220D6E1B0045B85C /* Shared.swift */,
+			);
+			path = notificationcenter;
+			sourceTree = "<group>";
+		};
+		041E4BA8220D98580045B85C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				041E4BA9220D98580045B85C /* GE Dinar One Medium.ttf */,
+				041E4BAA220D98580045B85C /* Montserrat-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		0486B5AB220B0C2600FBBEDC = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +157,8 @@
 		0486B5B6220B0C2600FBBEDC /* SOAQ */ = {
 			isa = PBXGroup;
 			children = (
+				041E4BA8220D98580045B85C /* fonts */,
+				0486B5BB220B0C2700FBBEDC /* Main.storyboard */,
 				0486B5E6220B12A300FBBEDC /* API */,
 				0486B5BE220B0C7300FBBEDC /* Assets.xcassets */,
 				0486B5E5220B113D00FBBEDC /* SUPPORT */,
@@ -120,6 +186,10 @@
 		0486B5CA220B0FF200FBBEDC /* Task2 */ = {
 			isa = PBXGroup;
 			children = (
+				041E4BA1220D6E1A0045B85C /* notificationcenter */,
+				041E4B98220D69B30045B85C /* View */,
+				041E4B97220D69A70045B85C /* Control */,
+				041E4B90220D66550045B85C /* Model */,
 				04B50AFB220CE5EF00694B9E /* Terms&Condition */,
 			);
 			path = Task2;
@@ -192,7 +262,6 @@
 		0486B5E4220B112700FBBEDC /* STOARYBOARD */ = {
 			isa = PBXGroup;
 			children = (
-				0486B5BB220B0C2700FBBEDC /* Main.storyboard */,
 			);
 			path = STOARYBOARD;
 			sourceTree = "<group>";
@@ -324,8 +393,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041E4BAB220D98580045B85C /* GE Dinar One Medium.ttf in Resources */,
 				0486B5C2220B0C7300FBBEDC /* LaunchScreen.storyboard in Resources */,
 				0486B5BF220B0C7300FBBEDC /* Assets.xcassets in Resources */,
+				041E4BAC220D98580045B85C /* Montserrat-Regular.ttf in Resources */,
 				0486B5BD220B0C2700FBBEDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,24 +451,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041E4BA3220D6E1B0045B85C /* Shared.swift in Sources */,
 				0486B5E8220B12C700FBBEDC /* API.swift in Sources */,
 				0486B5E1220B111300FBBEDC /* CheckLanguage.swift in Sources */,
 				0486B5D7220B107400FBBEDC /* SubCategoryCell.swift in Sources */,
 				0486B5D8220B107400FBBEDC /* MainCategoryCell.swift in Sources */,
+				041E4B9A220D6AAA0045B85C /* ViewController.swift in Sources */,
 				0486B5E3220B111300FBBEDC /* helper.swift in Sources */,
 				04DA80C3220C376D00BE4868 /* BrandsCell.swift in Sources */,
+				041E4B92220D66970045B85C /* CountryModel.swift in Sources */,
 				04DA80B7220C266C00BE4868 /* Config.swift in Sources */,
 				04DA80C4220C376D00BE4868 /* BestSellerCell.swift in Sources */,
 				0486B5E2220B111300FBBEDC /* General.swift in Sources */,
+				041E4BA5220D6E480045B85C /* TableViewCell.swift in Sources */,
 				0486B5DC220B108000FBBEDC /* MainCategoryModel.swift in Sources */,
 				04B50AFD220CE62B00694B9E /* Terms&Conditions.swift in Sources */,
 				04DA80BC220C373D00BE4868 /* BestSellerVc.swift in Sources */,
+				041E4BA0220D6AD30045B85C /* popViewController.swift in Sources */,
 				0486B5DB220B108000FBBEDC /* SubCategoryModel.swift in Sources */,
 				04DA80C0220C375F00BE4868 /* BrandsModel.swift in Sources */,
 				0486B5B8220B0C2600FBBEDC /* AppDelegate.swift in Sources */,
+				041E4B94220D673F0045B85C /* AreaModel.swift in Sources */,
 				0486B5D4220B106400FBBEDC /* MainCategoryVC.swift in Sources */,
 				04DA80BF220C375F00BE4868 /* BestSellerModel.swift in Sources */,
 				0486B5D3220B106400FBBEDC /* SubCategoryVC.swift in Sources */,
+				041E4B96220D675E0045B85C /* CityModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +486,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0486B5BC220B0C2700FBBEDC /* Base */,
+				041E4BA7220D7A5C0045B85C /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -416,6 +495,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0486B5C1220B0C7300FBBEDC /* Base */,
+				041E4BA6220D7A5B0045B85C /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -427,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -488,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

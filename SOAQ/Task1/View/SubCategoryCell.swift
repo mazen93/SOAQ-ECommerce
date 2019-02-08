@@ -23,13 +23,13 @@ class SubCategoryCell: UICollectionViewCell {
         
         
         
-//        if General.CurrentLanguage() == "en"
-//        {
-//            self.categoryName.text=data.titleEn!
-//        }else
-//        {
-//            self.categoryName.text=data.titleAR
-//        }
+        if General.CurrentLanguage() == "en"
+        {
+            self.categoryName.text=data.titleEn!
+        }else
+        {
+            self.categoryName.text=data.titleAR
+        }
        
         self.categoryCount.text="(\(data.productCount!))"
         let url=URL(string: data.photo!)

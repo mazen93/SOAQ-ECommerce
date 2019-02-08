@@ -19,14 +19,14 @@ class MainCategoryCell: UICollectionViewCell {
     
     func setData(data:MainCategoryModel) {
         
-//        
-//        if General.CurrentLanguage() == "en"
-//        {
-//            self.categoryName.text=data.titleEn!
-//        }else
-//        {
-//            self.categoryName.text=data.titleAR
-//        }
+        
+        if General.CurrentLanguage() == "en"
+        {
+            self.categoryName.text=data.titleEn!
+        }else
+        {
+            self.categoryName.text=data.titleAR
+        }
         
         
         

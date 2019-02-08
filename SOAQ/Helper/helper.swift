@@ -20,7 +20,7 @@ class helper: NSObject {
         
         //MainCategoryVC
         //ViewController
-        vc = sb.instantiateViewController(withIdentifier: "MainCategoryVC")
+        vc = sb.instantiateViewController(withIdentifier: "ViewController")
         window.rootViewController = vc
         UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromLeft, animations: nil, completion: nil)
         
