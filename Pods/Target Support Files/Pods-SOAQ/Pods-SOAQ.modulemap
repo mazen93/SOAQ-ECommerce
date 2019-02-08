@@ -1,0 +1,6 @@
+framework module Pods_SOAQ {
+  umbrella header "Pods-SOAQ-umbrella.h"
+
+  export *
+  module * { export * }
+}
